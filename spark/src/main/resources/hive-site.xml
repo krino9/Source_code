@@ -1,0 +1,17 @@
+<configuration>
+    <!-- Hive产生的元数据存放位置-->
+    <property>
+    <name>hive.metastore.warehouse.dir</name>
+    <value>/user/hive_remote/warehouse</value>
+    </property>
+    <!--- 使用本地服务连接Hive,默认为true-->
+    <property>
+    <name>hive.metastore.local</name>
+    <value>false</value>
+    </property>
+    <!-- 连接服务器-->
+    <property>
+    <name>hive.metastore.uris</name>
+    <value>thrift://192.168.35.130:9083</value>
+    </property>
+</configuration>

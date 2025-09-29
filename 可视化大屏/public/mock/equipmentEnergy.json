@@ -1,0 +1,14 @@
+{
+  "equipmentDistribution": [
+    { "value": 35, "name": "加工设备" },
+    { "value": 25, "name": "装配设备" },
+    { "value": 15, "name": "输送设备" },
+    { "value": 12, "name": "检测设备" },
+    { "value": 13, "name": "包装设备" }
+  ],
+  "energyConsumption": {
+    "xData": ["电力", "燃气", "水", "压缩空气"],
+    "todayData": [680, 240, 95, 130],
+    "yesterdayData": [720, 260, 105, 145]
+  }
+}
